@@ -139,23 +139,23 @@ git push
 
 ## ❓ FAQs
 
-### ❔ Why isn't my folder showing in the Git repo?
+###  Why isn't my folder showing in the Git repo?
 
 > Git doesn't track empty folders. Add a `.gitkeep` file inside.
 
-### ❔ I made a mistake. How do I undo a commit?
+###  I made a mistake. How do I undo a commit?
 
 > Use `git revert <commit-id>` or `git checkout <commit-id>` to move to that state.
 
-### ❔ What's the difference between `git reset` and `git revert`?
+###  What's the difference between `git reset` and `git revert`?
 
 > `reset` modifies history and should be used carefully. `revert` creates a new commit that undoes changes.
 
-### ❔ How to remove a file from staging?
+###  How to remove a file from staging?
 
 > Use `git restore --staged <file-name>`
 
-### ❔ How to discard all local changes?
+###  How to discard all local changes?
 
 > Use `git restore .`
 
